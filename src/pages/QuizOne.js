@@ -7,7 +7,7 @@ const QuizOne = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [score, setScore] = useState(0);
     const [isFinished, setIsFinished] = useState(false);
-    const [timeRemaining, setTimeRemaining] = useState(10);
+    const [timeRemaining, setTimeRemaining] = useState(60);
     const [areDisabled, setAreDisabled] = useState(false);
     const [answersShown, setAnswersShown] = useState(false);
 
@@ -24,7 +24,7 @@ const QuizOne = () => {
                 setIsFinished(true);
             } else {
                 setCurrentQuestion(currentQuestion + 1);
-                setTimeRemaining(10);
+                setTimeRemaining(60);
             }
         }, 1500);
     }
@@ -41,6 +41,8 @@ const QuizOne = () => {
     if (isFinished)
         return (
             <div className="container-quiz-one">
+                <h1 className='title-quiz-one'>Quiz One</h1>
+
                 <main className="container-quiz">
                     <div className="quiz-finish">
                         <span>
@@ -68,6 +70,8 @@ const QuizOne = () => {
     if (answersShown)
         return (
             <div className="container-quiz-one">
+                <h1 className='title-quiz-one'>Quiz One</h1>
+
                 <main className="container-quiz">
                     <div className="left">
                         <div className="nro-question">
@@ -126,7 +130,7 @@ const QuizOne = () => {
                             <button
                                 className='btn-continue'
                                 onClick={() => {
-                                    setTimeRemaining(10);
+                                    setTimeRemaining(60);
                                     setAreDisabled(false);  
                                     if (currentQuestion === questions.length - 1) {
                                         setIsFinished(true);
