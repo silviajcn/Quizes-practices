@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+.links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.links-two {
+    text-decoration: none;
+    color: #000000;
+}
