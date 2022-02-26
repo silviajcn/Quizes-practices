@@ -21,7 +21,7 @@ Para la creación del proyecto se utilizaron las siguientes herramientas de desa
 * Correr el comando ```npm install``` para instalar correctamente las dependencias del proyecto
 * Para levantar el servidor local se debe correr el comando ```npm start```
 
-## 🔍 Vista 
+## 🔍 Vistas
 
 ![home](https://user-images.githubusercontent.com/88461234/155859934-c0bf923e-a825-4901-a5dd-49b882a33282.png)
 
@@ -30,3 +30,4 @@ Para la creación del proyecto se utilizaron las siguientes herramientas de desa
 ## 🌟 Autor
 
 * **Silvia C. Navarro**  - [@silviajcn](https://github.com/silviajcn)
+* **Mi portafolio**(https://mi-portafolio-personal.vercel.app/)
