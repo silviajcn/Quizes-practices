@@ -1,10 +1,11 @@
 import React from 'react';
+import '../styles/elements.css';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className=''>
             <div>
-                <a href="https://mi-portafolio-personal.vercel.app/" aria-label='Portafolio' target="_blank" rel="noreferrer" className='links-two'><small>© 2021, Quicez By Silvi.</small></a>
+                <a href="https://mi-portafolio-personal.vercel.app/" aria-label='Portafolio' target="_blank" rel="noreferrer" className='links'><small>© 2021, Quicez By Silvi.</small></a>
             </div>
         </footer>
     )

@@ -6,6 +6,7 @@
 .links {
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
 }
 
 .links:hover {

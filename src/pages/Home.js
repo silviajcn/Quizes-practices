@@ -3,14 +3,17 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <main>
-            <h1>Home</h1>
+        <main className='home-container'>
+            <h1 className='title-home'>Home</h1>
 
-            <Link to="one">
-                <div>
+            <div className='grid-container'>
+               <Link to="one" className='links-two'>
+                <div className='card'>
+                    <img src="https://res.cloudinary.com/silviajcn/image/upload/v1645900258/PRACTICAS/Quizes/logo/logo_smk8tr.png" alt="quiz 1" title="quiz 1" className="img-quicez" />
                     <p>Quiz 1</p>
                 </div>
-            </Link>
+                </Link>
+            </div>
         </main>
     )
 };
