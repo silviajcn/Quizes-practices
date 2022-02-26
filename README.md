@@ -30,4 +30,4 @@ Para la creación del proyecto se utilizaron las siguientes herramientas de desa
 ## 🌟 Autor
 
 * **Silvia C. Navarro**  - [@silviajcn](https://github.com/silviajcn)
-* **Mi portafolio**(https://mi-portafolio-personal.vercel.app/)
+* **Mi portafolio** - [Mi portafolio](https://mi-portafolio-personal.vercel.app/)
