@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Home from '../pages/Home';
-import QuizOne from '../pages/QuizOne';
+import QuizOne from '../components/quizOne/QuizOne';
+import QuizTwo from '../components/quizTwo/QuizTwo';
 
 const AppRouter = () => {
 
@@ -17,9 +18,9 @@ const AppRouter = () => {
 
                 <Route path='/one' element={<QuizOne />} />
 
-                {/* <Route path='/two' element={<QuizTwo />} />
+                <Route path='/two' element={<QuizTwo />} />
 
-                <Route path='/three' element={<QuizThree />} /> */}
+                {/* <Route path='/three' element={<QuizThree />} /> */}
 
                 <Route path='*' element={<Navigate to="/" />} />
 

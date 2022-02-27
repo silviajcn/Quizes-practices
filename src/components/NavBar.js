@@ -7,7 +7,7 @@ const NavBar = () => {
             <Link to="/">
                 <img src="https://res.cloudinary.com/silviajcn/image/upload/v1645900258/PRACTICAS/Quizes/logo/logo_smk8tr.png" alt="logo" className='logo' />
             </Link>
-            <p>Quicez</p>
+            <p>Quiz App</p>
         </header>
     )
 };

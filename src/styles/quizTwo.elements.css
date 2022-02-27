@@ -1,0 +1,128 @@
+.container-quiz-two {
+    color: #fff;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* TITLE */
+.title-quiz {
+    color: #252d4a;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.title-screen {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.menu form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.menu label {
+    margin: 10px 5px;
+    font-size: 30px;
+}
+
+.menu input {
+    width: 290px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.menu button {
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.quiz {
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #252d4a;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.options {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options button {
+    width: 250px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.menu, .quiz, .end-screen h1 {
+    color: white;
+}
+
+.end-screen {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+#next-question {
+    width: 200px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #000000;
+}

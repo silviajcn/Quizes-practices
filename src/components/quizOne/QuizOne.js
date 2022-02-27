@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import questions from '../components/quizOne/questions';
-import '../styles/quizOne.elements.css';
+import questions from './questions';
+import '../../styles/quizOne.elements.css';
 
 const QuizOne = () => {
 
@@ -41,7 +41,7 @@ const QuizOne = () => {
     if (isFinished)
         return (
             <div className="container-quiz-one">
-                <h1 className='title-quiz-one'>Quiz One</h1>
+                <h1 className='title-quiz'>Quiz One</h1>
 
                 <main className="container-quiz">
                     <div className="quiz-finish">
@@ -70,7 +70,7 @@ const QuizOne = () => {
     if (answersShown)
         return (
             <div className="container-quiz-one">
-                <h1 className='title-quiz-one'>Quiz One</h1>
+                <h1 className='title-quiz'>Quiz One</h1>
 
                 <main className="container-quiz">
                     <div className="left">
@@ -113,7 +113,7 @@ const QuizOne = () => {
 
     return (
         <div className="container-quiz-one">
-            <h1 className='title-quiz-one'>Quiz One</h1>
+            <h1 className='title-quiz'>Quiz One</h1>
 
             <div className='container-quiz'>
                 <div className='left'>
