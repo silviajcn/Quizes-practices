@@ -1,8 +1,8 @@
-# 📌 Quicez
+# 📌 Quiz App
 
 En esta pagina encontraras varios quicez o pruebas de conocimientos.
 
-## 💻 Para visitar los quicez igresa al siguiente link:
+## 💻 Para visitar Quiz App igresa al siguiente link:
 
 ### https://quizes.vercel.app/
     
@@ -21,11 +21,9 @@ Para la creación del proyecto se utilizaron las siguientes herramientas de desa
 * Correr el comando ```npm install``` para instalar correctamente las dependencias del proyecto
 * Para levantar el servidor local se debe correr el comando ```npm start```
 
-## 🔍 Vistas
+## 🔍 Vista
 
-![home](https://user-images.githubusercontent.com/88461234/155859934-c0bf923e-a825-4901-a5dd-49b882a33282.png)
-
-![1](https://user-images.githubusercontent.com/88461234/155859937-287ee1c0-9e9e-4aa6-ad03-c9b9a041c882.png)
+![1](https://user-images.githubusercontent.com/88461234/155866485-46829752-c252-4782-8fef-92dc8fbc10c7.png)
 
 ## 🌟 Autor
 
