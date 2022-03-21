@@ -20,6 +20,13 @@ const Home = () => {
                     <p>Quiz 2</p>
                 </div>
                 </Link>
+
+                <Link to="/three" className='links-two'>
+                <div className='card'>
+                    <img src="https://res.cloudinary.com/silviajcn/image/upload/v1645900258/PRACTICAS/Quizes/logo/logo_smk8tr.png" alt="quiz 3" title="quiz 2" className="img-quicez" />
+                    <p>Quiz 3</p>
+                </div>
+                </Link>
             </div>
         </main>
     )
