@@ -27,6 +27,11 @@
     font-weight: bold;
 }
 
+.name-app:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* GRID */
 
@@ -50,7 +55,7 @@
     grid-template-columns: 300px 300px;
     grid-template-rows: 300px;
     column-gap: 50px;
-    /* row-gap: 10px; */
+    row-gap: 20px;
 }
 
 .card {
